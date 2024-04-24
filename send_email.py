@@ -19,12 +19,12 @@ def submit(email, key):
            print(notes)
            result = send_notes_email(email, notes)
            if result == 'done':
-               return jsonify({"key": "sent"})
+               return jsonify({"key": "Sent"})
            else:
-              return jsonify({"key": "not sent"})
+              return jsonify({"key": "Not Sent"})
         else:
-            print("no data found")
-            return jsonify({"key": "not sent"})
+            print("No Data Found")
+            return jsonify({"key": "Not Sent"})
 
 
 if __name__ == "__main__":
