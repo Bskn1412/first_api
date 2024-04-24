@@ -19,7 +19,7 @@ def send_notes_email(email, notes):
         server.starttls()
         server.login(sender_email, sender_password)
         server.sendmail(sender_email, [email], message.as_string())
-        print("sended!")
+        print("Sended!")
     return "done"
 
 def decodeBase64(encodedText):
