@@ -10,7 +10,7 @@ def send_notes_email(email, notes):
 
     # Create the email message
     message = MIMEText(f"Your Notes : \n {notes}")
-    message["Subject"] = "Sending Notes"
+    message["Subject"] = "Notes From ND"
     message["From"] = "Next Dimension"
     message["To"] = email
 
