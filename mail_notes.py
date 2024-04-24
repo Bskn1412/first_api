@@ -5,8 +5,8 @@ import urllib.parse
 
 
 def send_notes_email(email, notes):
-    sender_email = "jokerdeva18@gmail.com"
-    sender_password = "acnu bsol osui tlps"
+    sender_email = "nextdimensionop@gmail.com"
+    sender_password = "qpdd koln goqi sjdp"
 
     # Create the email message
     message = MIMEText(f"Your Notes : \n {notes}")
